@@ -7,19 +7,26 @@ Downloaded and unzipped the data into folder named UCI HAR Dataset
 ## 2. Read in all data files
 features.txt (561 rows, 2 columns)
 - *The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ*
-- *The features file is used to assign column names to the X_test and X_train data
+- *The features file is used to assign column names to the X_test and X_train data*
+
 activity_labels.txt (6 rows, 2 columns)
 - *List of activities performed when the corresponding measurements were taken*
+
 subject_test.txt (2947 rows, 1 column)
 - *Each row identifies the subject who performed the activity*
+
 X_test.txt (2947 rows, 561 columns)
 - *contains recorded features test data*
+
 y_test.txt (2947 rows, 1 column)
 - *contains activity code for test data - cross reference to activity_labels.txt*
+
 subject_train.txt (7352 rows, 1 column)
 - *Each row identifies the subject who performed the activity*
+
 X_train.txt (7352 rows, 561 columns)
 - *contains recorded features train data*
+
 y_train.txt (7352 rows, 1 column)
 - *contains activity code for train data - cross reference to activity_labels.txt*
 
